@@ -1,0 +1,114 @@
+html, body 
+{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper
+{
+	min-height: 100%;
+	margin-bottom: -50px;
+
+}
+
+input
+{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#line
+{
+	padding: 20px;
+}
+
+body
+{
+	background-color: rgba(0,0,0,1);
+	color: rgba(255, 255, 255, 1); 
+}
+
+h1
+{
+	font-family: "Bookman", "Arial", "Times New Roman";
+	font-size: 48px;
+	padding: 10px;
+	text-align: center;
+}
+
+h2
+{
+	font-family: "Bookman", "Arial", "Times New Roman";
+	font-size: 24px;
+	padding: 10px;
+}
+
+.schedule th
+{
+	text-align: left;
+	font-family: "Helvetica", "Arial", "Times New Roman";
+}
+
+.schedule th, td
+{
+	padding: 10px;
+}
+
+.schedule td
+{
+	font-family: "Georgia";
+}
+
+
+
+
+.bottom th
+{
+
+	font-family: "Helvetica", "Arial", "Times New Roman";
+}
+
+.bottom td, th
+{
+	text-align: left;
+	font-family: "Georgia", "Times", "Times New Roman";
+	margin: 0;
+	padding: 0;
+	padding-left: 5px;
+	padding-top: 3px;
+}
+
+.bottom a
+{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.bottom
+{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.content-inside
+{
+	padding-bottom: 50px;
+	padding: 20px;
+	
+}
+
+
+
+.footer, .push {
+	height: 50px;
+}
+
+.footer{
+	background-color: black;
+	font-family: "Georgia", "Arial";
+	line-height: 50px;
+	text-align: center;
+	color: white;
+}
